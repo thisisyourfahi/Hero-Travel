@@ -12,7 +12,7 @@ body {
     /* padding: 3rem 9rem; */
     /* padding-inline-start: 4rem; */
     /* padding: 4rem; */
-    padding: 2rem;
+    padding: 2rem 5rem;
 }
 body * {
     margin: 0;
@@ -88,7 +88,8 @@ nav .left {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
+    border-radius: 1rem;
+    margin-bottom: 6rem;
 }
 .hero .hero-text h1 {
     font-size: 4rem;
@@ -108,4 +109,32 @@ nav .left {
     border: none;
     border-radius: .5rem;
     outline: none;
+}
+
+/* popular tours styles */
+.popular-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+    margin-bottom: 6rem;
+}
+.popular-des {
+    /* border: 1px dotted blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* padding-left: 2rem; */
+}
+.popular-des h1 {
+    font-size: 2.5rem;
+}
+.popular-des ul {
+    padding-left: 1rem;
+}
+.popular-des p, li {
+    color: #5A5A5D ;
+}
+.popular-des button {
+    align-self: flex-start;
 }
