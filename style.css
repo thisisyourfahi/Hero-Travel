@@ -370,3 +370,22 @@ select {
 .deals-button {
     text-align: center;
 }
+
+/* video section styles */
+.video-seciton {
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+    align-items: center;
+}
+.video-des {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.video-des h1 {
+    font-size: 3rem;
+}
+.video-des button {
+    align-self: flex-start;
+}
