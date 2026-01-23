@@ -377,6 +377,8 @@ select {
     justify-content: space-between;
     gap: 10rem;
     align-items: center;
+
+    margin-bottom: 6rem;
 }
 .video-des {
     display: flex;
@@ -388,4 +390,51 @@ select {
 }
 .video-des button {
     align-self: flex-start;
+}
+
+/* form-section styles */
+.form-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-form {
+    border: 1px solid #FF5400;
+    border-radius: 1rem;
+    padding: 2rem;
+    
+    display: flex;
+    flex-direction: column;
+
+    gap: 1.5rem;
+    max-width: 40%;
+}
+.form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.form-input input {
+    padding: 1rem 1.5rem;
+    background-color: #00000010;
+
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+}
+
+.form-image {
+    position: relative;
+}
+.form-image .discount {
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+    transform: rotate(-20deg);
+
+    background-color: #FF5400;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
 }
