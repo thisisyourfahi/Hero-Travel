@@ -54,7 +54,7 @@ body * {
 
 a {
     display: inline-block;
-    transition: transform 100ms linear, box-shadow 100ms linear;
+    transition: transform 100ms linear;
 }
 
 a:hover {
