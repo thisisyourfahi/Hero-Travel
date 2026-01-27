@@ -386,7 +386,7 @@ select {
 .video-seciton {
     display: flex;
     justify-content: space-between;
-    gap: 10rem;
+    /* gap: 10rem; */
     align-items: center;
 
     margin-bottom: 6rem;
@@ -395,6 +395,7 @@ select {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    max-width: 50%;
 }
 .video-des h1 {
     font-size: 3rem;
@@ -438,6 +439,10 @@ select {
 
 .form-image {
     position: relative;
+    /* width: 100%; */
+}
+.form-image img {
+    width: 100%;
 }
 .form-image .discount {
     position: absolute;
