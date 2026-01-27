@@ -24,24 +24,72 @@
 
     .hero .hero-text h1 {
         font-size: 3rem;
-    } 
+    }
+
     .hero form {
         flex-direction: column;
         width: 90%;
     }
+
     .popular-section {
         flex-direction: column-reverse;
         gap: 1rem;
         width: 90%;
         margin-bottom: 1rem;
     }
+
     .popular-des {
         text-align: center;
     }
+
     .popular-des button {
         margin: 0 auto;
     }
+
     .popular-image {
         width: 90%;
+    }
+
+    .destination-gallery> :nth-child(1),
+    .destination-gallery> :nth-child(2),
+    .destination-gallery> :nth-child(3),
+    .destination-gallery> :nth-child(4),
+    .destination-gallery> :nth-child(5),
+    .destination-gallery> :nth-child(6),
+    .destination-gallery> :nth-child(7) {
+        grid-column: span 12;
+    }
+
+    .destination-section {
+        margin-bottom: 1rem;
+    }
+
+    .choose-section {
+        margin-bottom: 1rem;
+    }
+
+    .deals-card {
+        padding: 10rem 1rem 1rem 1rem;
+    }
+
+    .deals-card>div {
+        padding: 2rem;
+    }
+
+    .deals-card {
+        align-items: end;
+    }
+
+    .deals-card>div {
+        padding: 1.5rem;
+         gap: 1.5rem;
+    }
+
+    .deals-card-info {
+        flex-wrap: wrap;
+    }
+
+    .deals-card>div>p {
+        font-size: 1rem;
     }
 }
